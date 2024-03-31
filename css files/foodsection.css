@@ -1,0 +1,72 @@
+.example-section{
+  padding:  50px var(--padding-inline-section);
+}
+.example-header {
+  flex-direction: column;
+  gap: 20px;
+}
+.examples-area {
+  justify-content: space-between;
+  margin-block: 30px;
+  flex-wrap: wrap;
+}
+.example-card{
+  margin: 20px 0 20px 0;
+}
+
+.example-card {
+  width: 23%;
+  position: relative;
+  height: 300px;
+  background: black;
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/1.jpeg);
+  background-size: cover;
+  transition: 0.2s ease-out;
+}
+.example-card:nth-child(2) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/13.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(3) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/14_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(4) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/15_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(5) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/16_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(6) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/20_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(7) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/21_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:nth-child(8) {
+  background: linear-gradient(rgba(63, 63, 63, 0.026), rgba(0, 0, 0, 0.267)),
+    url(/images/food/25_disabled.jpeg);
+  background-size: cover;
+}
+.example-card:hover {
+  box-shadow: 0 0 12px #888;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+}
