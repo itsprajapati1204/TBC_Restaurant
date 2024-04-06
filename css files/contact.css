@@ -49,6 +49,7 @@
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
     background: #f3f4f6;
+   
   }
   .field input::placeholder,
   .message textarea::placeholder {
@@ -98,3 +99,11 @@
     font-weight: 700;
     margin-top: 20px;
   }
+  .message textarea{
+    border: 2px solid black;
+    
+  }
+  /* .message textarea placeholder{
+    display: flex;
+    align-items: center;
+  } */
