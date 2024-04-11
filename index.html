@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css files/company-section.css">
     <link rel="stylesheet" href="/css files/price.css">
     <link rel="stylesheet" href="/css files/contact.css">
+    <link rel="stylesheet" href="/css files/responsive.css">
     <!-- cdn files -->
     <link
       rel="stylesheet"
@@ -28,25 +29,26 @@
      src="https://kit.fontawesome.com/06a84d219c.js"
      crossorigin="anonymous"
    ></script>
+   
   </head>
   <body>
      <!-- top banner -->
-     <div class="top-banner">
-      <div class="container">
-        <div class="banner-text">
+     <div class="top-banner" id="top-banner">
+      <div class="container" id="banner01" >
+        <div class="banner-text" >
           📣 Get 20% off on New Join! Read more →
         </div>
       </div>
     </div>
     <!-- nav-section -->
     <navbar>
-      <div href="#" class="container main-nav flex">
+      <div href="#" class="container main-nav flex" id="nav">
         <a href="#" class="company-logo flex">
-          <img src="/images/svg/dish.png" alt="company-logo" />&nbsp;&nbsp;
-          <h3>TBC</h3>
+          <img  id="box01" src="/images/svg/dish.png" alt="company-logo" />&nbsp;&nbsp;
+          <h3  id="box01">TBC</h3>
         </a>
-        <div class="nav-links active" id="nav-links">
-          <ul class="flex">
+        <div class="nav-links active" id="nav-links"  id="box01">
+          <ul class="flex"  id="box01">
             <form action="" class="search-form flex" id="sbox">
               <input
                 type="search"
@@ -74,11 +76,11 @@
         <div class="header-right">
           <img src="/images/food01.png" alt="" />
         </div>
-        <div class="header-left">
+        <div class="header-left" id="text01">
           <!-- <h1>Hi there,</h1> -->
           <img src="/images/wave-hand.gif" alt="" />
-          <h1>The Bairaj<span> Cabana</span></h1>
-          <p>
+          <h1 id="text02" >The Bairaj<span> Cabana</span></h1>
+          <p id="text02" >
             "Our Hotel Cabana Is Always For Your Good Explore And Experience."
           </p>
           <a href="#hero" class="primary-button get-started-button"
@@ -88,8 +90,8 @@
       </div>
     </header>
 <!-- food section start -->
-<section class="example-section">
-  <div class="container">
+<section class="example-section" >
+  <div class="container" id="food-box-start">
     <div class="example-header flex">
       <h2 class="small-bold-text">
         Our food items
@@ -99,40 +101,40 @@
       ></a>
     </div>
     <div class="examples-area flex">
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box01">
         <!-- <h3 class="card-text">
           PIZZA
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box01">
         <!-- <h3 class="card-text">
           BIRYANI
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card"id="food-box02">
         <!-- <h3 class="card-text">MOMOS</h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box02">
         <!-- <h3 class="card-text">
           CAKE
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box01">
         <!-- <h3 class="card-text">
           CAKE
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box01">
         <!-- <h3 class="card-text">
           CAKE
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card"id="food-box02">
         <!-- <h3 class="card-text">
           CAKE
         </h3> -->
       </a>
-      <a href="#" class="example-card">
+      <a href="#" class="example-card" id="food-box02">
         <!-- <h3 class="card-text">
           CAKE
         </h3> -->
@@ -143,36 +145,36 @@
 <!-- order food section -->
 <section class="form-container container">
   <h1 class="heading">Order<span>Now</span></h1>
-  <form action="">
+  <form action="" method="post" name="submit-to-google-sheet">
     <div class="inputBox">
       <span>Where</span>
-      <input type="text" placeholder="Search Places" />
+      <input type="text" placeholder="Search Places" name="Where" />
     </div>
 
     <div class="inputBox">
       <span>When</span>
-      <input type="date" />
+      <input type="date"  name="When"/>
     </div>
 
     <div class="inputBox">
       <span>Time</span>
-      <input type="time" />
+      <input type="time"  name="Time"/>
     </div>
     <input type="submit" value="Order Now" class="btn primary-button" />
   </form>
 </section>
 <!-- conpany-section -->
-<section class="companies-section">
-  <div class="container">
-    <div class="small-bold-text companies-header">
+<section class="companies-section" id-="food-bx">
+  <div class="container"  id="online-food">
+    <div class="small-bold-text companies-header ">
      Order online
     </div>
-    <div class="logos flex">
-      <img class="logo" src="/images/svg/1.png" alt="" />
-      <img class="logo" src="/images/svg/2.png" alt="" />
-      <img class="logo" src="/images/svg/3.png" alt="" />
-      <img class="logo" src="/images/svg/4.png" alt="" />
-      <img class="logo" src="/images/svg/5.jpg" alt="" />
+    <div class="logos flex" >
+      <img class="logo" id="onlinefood-box" src="/images/svg/1.png" alt="" />
+      <img class="logo" id="onlinefood-box" src="/images/svg/2.png" alt="" />
+      <img class="logo" id="onlinefood-box" src="/images/svg/3.png" alt="" />
+      <img class="logo" id="onlinefood-box" src="/images/svg/4.png" alt="" />
+      <img class="logo" id="onlinefood-box" src="/images/svg/5.jpg" alt="" />
 
       <!-- <img class="logo" src="/images/svg" alt="" />
       <img class="logo" src="/images/svg/" alt="" />
@@ -343,9 +345,24 @@
     <a href="#" class="hover-link"><i class="fa-brands fa-youtube"></i></a>
   </div>
 </div>
-<!-- //Email script request Script // -->
+
+ <!-- // excel sheet request Script // -->
 
    
+    
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwACORVVriEAYaktOUiT3O7MowPsBbI3Ox8yk_NtcC8pWKqK121lT7-2uEWSVGD1baojg/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      // .then(response =>alert("Thanks for Connecting"))
+      .catch(error => console.error('Error!', error.message))
+  })
+  </script>
+
+   <!-- Excel Sheet Request Script -->
     
 <script src="https://web3forms.com/client/script.js" async defer></script>
 </script>
@@ -355,5 +372,11 @@
   }
   </script>
   <script src="script.js"></script>
+  <!-- animmation files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- js-file -->
+  <script src="/script.js"></script>
 </body>
 </html>
